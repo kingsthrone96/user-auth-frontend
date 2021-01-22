@@ -14,13 +14,13 @@ nav {
   z-index: 1;
   border: none !important;
   box-shadow: none;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 form {
   position: relative;
-  width: 800px;
-  top: 50%;
+  width: 500px;
+  top: 48%;
   left: 50%;
   transform: translate(-50%, -40%);
   background-color: #fff;

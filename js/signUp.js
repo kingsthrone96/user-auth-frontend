@@ -1,18 +1,21 @@
 const form = document.querySelector("form");
 
+//* Sign Up form is the default form display on load
 (function () {
   form.innerHTML = `
     <div class="row">
-    <h3 class="text-centers">Sign Up</h3>
+      <h3 class="text-centers">Sign Up</h3>
       <form class="">
         <div class="row">
-          <div class="input-field col s6">
-            <input id="first_name" type="text" class="validate">
-            <label for="first_name">First Name</label>
-          </div>
-          <div class="input-field col s6">
+          <div class="input-field col s12">
             <input id="last_name" type="text" class="validate">
             <label for="last_name">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">First Name</label>
           </div>
         </div>
         <div class="row">
